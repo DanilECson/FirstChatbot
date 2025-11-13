@@ -13,10 +13,10 @@ import string
 import sys
 import os
 
-# --- My existing API Keys ---
-API_KEY = '0f115764e9ea514ff6ac530e71123520'
-TIMEZONE_API_KEY = 'T6Y64PZ7PG3Z'
-OPENROUTER_API_KEY = "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"
+# ---API Keys ---
+API_KEY = "enter your key"
+TIMEZONE_API_KEY = "enter your key"
+OPENROUTER_API_KEY = "enter your key"
 
 fallback_responses = [
     "Hmm, I'm still learning that part. Want to ask about the time or weather?",
@@ -260,3 +260,4 @@ class ChatBotApp(App):
 
 if __name__ == '__main__':
     ChatBotApp().run()
+
