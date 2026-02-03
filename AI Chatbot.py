@@ -14,9 +14,9 @@ import sys
 import os
 
 # ---API Keys ---
-API_KEY = "enter your key"
-TIMEZONE_API_KEY = "enter your key"
-OPENROUTER_API_KEY = "enter your key"
+API_KEY = "enter your key" 
+TIMEZONE_API_KEY = "enter your key" //get the API key from timezonedb.com
+OPENROUTER_API_KEY = "enter your key" //get a free API key from openrouter
 
 fallback_responses = [
     "Hmm, I'm still learning that part. Want to ask about the time or weather?",
@@ -260,4 +260,5 @@ class ChatBotApp(App):
 
 if __name__ == '__main__':
     ChatBotApp().run()
+
 
